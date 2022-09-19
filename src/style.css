@@ -13,13 +13,12 @@ background: linear-gradient(
 display: flex;
 justify-content: center;
 align-items: center;
-background-repeat:no-repeat ;
 background-size:cover ;
 }
 
 .wrapper{
-    background-color: beige;
-    height: 50vh;
+    background-color: #e0d5d5;
+    height: auto;
     width:  30vw;
 }
 
@@ -36,12 +35,20 @@ background-size:cover ;
     justify-content: center;
 }
 
+input{
+    background: #f1f1f1;   
+    border: 1px solid #f1f1f1; 
+    width: 100%;
+    padding: 15px;
+}
+
 .input-block{
     padding: 10px 20px;
-    display: flex;
+    display: inline-block;
     align-items: center;
     justify-content: center;
 }
+
 
 .input-label{
     margin-right: 10px;
