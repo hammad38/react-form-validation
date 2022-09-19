@@ -53,9 +53,21 @@ justify-content: center
 
 .input-block{
     padding: 10px 20px;
+
 }
 
 .input-label{
    font-size: 17px;
    font-weight: bold;
 }
+
+.submit-btn{
+    display: flex;
+    justify-content: center;
+}
+.submit{
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 700;
+}
+

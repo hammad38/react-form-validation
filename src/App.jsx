@@ -1,11 +1,13 @@
 import React from "react";
 import "./style.css";
+import { useFormik } from "formik";
 
 const App = () => {
-  return (
+
+  return (  
     <div className="container">
       <div className="wrapper">
-        <h1 className="heading">Welcome</h1>
+        <h1 className="heading">Welcome!</h1>
         <p className="para">This is form validation in react</p>
 
         <div className="subContainer">
@@ -57,6 +59,11 @@ const App = () => {
                 name="confirmPassword"
                 id="confirmPassword"
               />
+            </div>
+            <div  className="input-block submit-btn">
+
+            <input className="submit" type="submit" name="submit" id="submit" />
+
             </div>
           </form>
         </div>
