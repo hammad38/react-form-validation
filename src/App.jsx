@@ -5,12 +5,14 @@ const App = () => {
   return (
     <div className='container'>
         <div className="wrapper">
+            <div className="title">
             <h1 className="heading">
                 Welcome
             </h1>
             <p className="para">
                 This is form validation in react
             </p>
+            </div>
             <form action="">
                 <div className='input-block'>
                     <label 

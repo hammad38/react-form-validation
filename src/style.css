@@ -20,5 +20,28 @@ background-size:cover ;
 .wrapper{
     background-color: beige;
     height: 50vh;
-    width:  50vw;
+    width:  30vw;
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 24px;
+    padding-bottom: 5px;
+}
+
+.para{
+    display: flex;
+    justify-content: center;
+}
+
+.input-block{
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.input-label{
+    margin-right: 10px;
 }
