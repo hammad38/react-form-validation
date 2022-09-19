@@ -17,10 +17,16 @@ background-size:cover ;
 }
 
 .wrapper{
-    background-color: #e0d5d5;
+    background-color: #fff;
     height: auto;
     width:  30vw;
+    padding: 20px;
 }
+
+/* .subContainer{
+display: flex;
+justify-content: center
+} */
 
 .heading{
     display: flex;
@@ -33,24 +39,23 @@ background-size:cover ;
 .para{
     display: flex;
     justify-content: center;
+    font-weight: 700;
 }
 
-input{
+.input{
     background: #f1f1f1;   
-    border: 1px solid #f1f1f1; 
-    width: 100%;
-    padding: 15px;
+    border: 1px solid lightgray; 
+    padding: 10px;
+    display: flex;  
+    align-items: center;
+    width: 95%;
 }
 
 .input-block{
     padding: 10px 20px;
-    display: inline-block;
-    align-items: center;
-    justify-content: center;
 }
 
-
 .input-label{
-    margin-right: 10px;
-    display: flex;
+   font-size: 17px;
+   font-weight: bold;
 }
