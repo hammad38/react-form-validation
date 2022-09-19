@@ -35,6 +35,33 @@ const App = () => {
                     autoComplete='off'
                     name="email" 
                     id="email" />
+                </div>
+                <div className="input-block">
+                    <label 
+                    htmlFor="password"
+                    className='input-label'
+                    >Password
+                    </label>
+                    <input 
+                    type="password"
+                    autoComplete='off'
+                    name='password'
+                    id='password'
+                     />
+
+                </div>
+                <div className="input-block">
+                    <label 
+                    htmlFor="confirmPassword"
+                    className='input-label'
+                    >Confirm Password
+                    </label>
+                    <input 
+                    type="password"
+                    autoComplete='off'
+                    name='confirmPassword'
+                    id='confirmPassword'
+                     />
 
                 </div>
             </form>
